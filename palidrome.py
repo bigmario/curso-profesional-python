@@ -4,7 +4,7 @@ def is_palindrome(string: str) -> bool:
 
 
 def run():
-    print(is_palindrome(1000))
+    print(is_palindrome('mario'))
 
 
 if __name__ == '__main__':

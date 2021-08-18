@@ -13,8 +13,12 @@ def execution_time(func):
 
 @execution_time
 def random_func():
-    for _ in range(1, 10000000):
+    for _ in range(1, 100000000):
         pass
 
+@execution_time
+def suma(a: int, b: int) -> int:
+    print (a + b)
 
 random_func()
+suma(5, 5)
